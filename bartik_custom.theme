@@ -1,0 +1,7 @@
+<?php
+
+
+function bartik_custom_preprocess_page(&$variables)
+{
+  $variables['sample_theme_text'] = theme_get_setting('sample_theme_text');
+}
